@@ -1,0 +1,89 @@
+
+.text-center{
+    text-align: center;
+    color:rgb(35, 20, 250);
+}
+.parent-container{
+    width: 28vw;
+    min-width: 385px;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    padding: 10px 0px 20px 0px;
+    position: relative;
+    left: 35vw;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 44px;
+    border-radius: 7px;
+    box-shadow: inset -3px -3px 7px #ffffff ,-5px -5px 12px 
+    rgba(0,0,0, .29);
+    border: 1px solid rgb(133, 135, 230);
+}
+
+.col-container{
+    background-color: #d3d3d3;
+    background-image: linear-gradient(315deg, #d3d3d3 0%, #57606f 74%);    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 87%;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 7px #ffffff ,5px 5px 12px 
+    rgba(0,0,0, .29);
+    border: 1px solid rgb(129, 116, 189);
+}
+.row-container{
+    min-width: 345px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    padding: 20px;
+    margin: 7px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3cbdc;
+    background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+    
+}
+.row-left{
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+ #input{
+    width: 90%;
+    min-height: 70px;
+    font-size: 1.8rem;
+    font-family: 'Orbitron', sans-serif;
+    outline-style: none;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: inset 5px 5px 12px #ffffff ,5px 5px 12px 
+    rgba(0,0,0, .29);
+    text-align: right;
+    background-color: #ddcad9;
+    background-image: linear-gradient(315deg, #ddcad9 0%, #d1b1cb 74%);
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #1d2951;
+    background-image: linear-gradient(315deg, #1d2951 0%, #dbe7fc 74%);
+    
+}
+
+
