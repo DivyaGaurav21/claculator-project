@@ -3,6 +3,12 @@ let buttons=document.getElementsByClassName("btn");
 let screenValue="";
 
 
+function add(a, b) {
+    return a + b;
+}
+
+
+
 for (let item = 0; item < buttons.length; item++) {
     buttons[item].addEventListener('click' , (e)=>{
         btnText=e.target.innerText;
