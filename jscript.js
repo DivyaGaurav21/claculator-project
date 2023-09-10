@@ -7,6 +7,9 @@ function add(a, b) {
     return a + b;
 }
 
+function substract(a, b) {
+    return a - b;
+}
 
 
 for (let item = 0; item < buttons.length; item++) {
